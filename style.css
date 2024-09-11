@@ -1,0 +1,165 @@
+/*Fonte*/
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+body{
+    text-align: center;
+    background: url('./images/back.jpg') no-repeat 0px;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+main{
+    margin-top: 2%;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;  
+    max-width: 425px;
+}
+
+.pokemon_image{ 
+    position:absolute;
+    left: 33%;
+    bottom:35%;
+    transform: translate(-10%,20%);
+    height: 25%;
+    max-width: 225px;
+    min-width: 190px;
+}
+
+.pokemon_data{
+    position:absolute;
+    font-weight:100;
+    color: #aaa;
+    left: 31%;
+    bottom:65%;
+    font-size: clamp(7px,1.5rem,25px);
+    max-width: 193px;
+    min-width: 165px;
+}
+
+.pokemon_name{
+        text-transform:capitalize;
+}
+
+.form{
+position:absolute;
+width:65%;
+left: 15%;
+bottom: 83%;
+}
+
+.input_search {
+width:90%;
+padding-left: 11%;
+border:2px solid #333;
+border-radius: 20px;
+font-weight: 100;
+font-size: clamp(4%,0.8rem,1rem);
+background: url('./images/lupa.png') no-repeat 10px;
+background-size: 13px 13px;
+background-color: #ece6e6;
+box-shadow: -1px 2px 0 #000000;
+height: 25px;
+padding-bottom: 7px;
+}
+
+.input_search:focus {
+    outline: none;
+}
+
+.input_search::placeholder{
+    color: #7a7979; 
+}
+
+.buttons{
+    position:absolute;
+    width:65%;
+    left: 19%;
+    bottom:67%;
+    display: flex;
+    gap: 220px;  
+}
+
+.button {
+    width: 10%;
+    padding: 0%;
+    border-radius: 15px;
+    font-weight: 100;
+    color: #ece5e5;
+    background-color: #0e0d0d;
+    font-size: clamp(9px,0.5vw,1rem);
+    font-weight: 800;
+}
+
+.button:active{
+    background-color: #777676;
+    font-size: 0.4rem;
+}
+
+.pokemon_peso{
+    position:absolute;
+    font-weight:100;
+    color: #aaa;
+    left: 21%; 
+    bottom:15%;
+    font-size: clamp(7px,1rem,25px);
+    letter-spacing:2px;
+}
+
+.pokemon_altura{
+    position:absolute;
+    font-weight:100;
+    color: #aaa;
+    left: 53%;
+    bottom:15%;
+    font-size: clamp(7px,1rem,25px);
+    letter-spacing:2px;
+}
+
+.pokemon_tipo{
+    position:absolute;
+    text-transform:capitalize;
+    font-weight:100;
+    color: #aaa;
+    left: 35%;
+    bottom:22%;
+    font-size: clamp(7px,1.1rem,25px);
+    letter-spacing:2px;
+    border-radius: 20px;
+    background-color: hsla(149, 37%, 31%, 0.5);
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    min-width: 135px;
+}
+
+#som{
+    background: transparent;
+    border:none;
+    position:absolute;
+    left: 78%;
+    bottom:82%;
+    margin: 0;
+    padding: 0;  
+}
+
+#som img{
+width: 27px; 
+height: 27px; 
+}
+
+#som:active {
+    transform: none;
+    box-shadow: none;
+}
