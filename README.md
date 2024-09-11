@@ -1,5 +1,5 @@
 # APPDEX
-Pagina web de um "app" pokedex.
+Pagina web de um "app" pokédex.
 
 ![Appdex](./images/APPDEX.png)
 
