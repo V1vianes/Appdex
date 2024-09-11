@@ -6,7 +6,6 @@
 
 - Busca de Pokémon.
 - Exibição de dados (altura, peso, tipo) e sua imagem.
-- Interface amigável utilizando HTML e CSS.
 
 ## Tecnologias
 
@@ -21,4 +20,11 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 1. Clone o repositório:
    ```bash
-   git clone 
+   git clone https://github.com/V1vianes/Appdex.git
+
+2. Abra o diretório
+   ```bash
+     cd POKEDEX
+
+3. Abra o arquivo index.html no navegador.
+
