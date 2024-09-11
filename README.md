@@ -1,4 +1,5 @@
 # APPDEX
+Pagina web de um "app" pokedex.
 
 ![Appdex](./images/APPDEX.png)
 
@@ -6,6 +7,7 @@
 
 - Busca de Pokémon.
 - Exibição de dados (altura, peso, tipo) e sua imagem.
+- Som de fundo.
 
 ## Tecnologias
 
