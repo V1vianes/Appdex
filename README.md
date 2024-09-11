@@ -24,7 +24,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 2. Abra o diretório
    ```bash
-   cd POKEDEX
+   cd Appdex
 
 3. Abra o arquivo index.html no navegador.
 
