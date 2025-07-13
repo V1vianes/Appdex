@@ -18,15 +18,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **JavaScript**
 - **PokeAPI**: Fonte de dados sobre Pokémon.
 
-## Instalação
+## Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/V1vianes/Appdex.git
-
-2. Abra o diretório
-   ```bash
-   cd Appdex
-
-3. Abra o arquivo index.html no navegador.
+- [Acesse o projeto finalizado, online](https://v1vianes.github.io/Appdex/)
 
